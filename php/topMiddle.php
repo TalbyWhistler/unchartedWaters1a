@@ -2,7 +2,10 @@
 
     // top middle area with commodity information output 
 
-
+    function outputThing($string)
+    {
+        echo $string;
+    }
     // takes an array with 4 values from the sql commodities table and outputs them in table form
 
     function priceTable($inputArray)

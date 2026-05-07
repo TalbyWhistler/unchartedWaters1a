@@ -24,7 +24,7 @@
     $output=$output . '<h2>Hi There!</h2><p>Welcome to the php practice page of STeve Tatone, let\'s see what kind of mischief we get up to!</p>';
     echo $table1;
 
-  //  require 'php/dbConnect.php';
-    require 'php/dbTest.php';
+    require 'php/dbConnect.php';
+    // require 'php/dbTest.php';
     
 ?>
