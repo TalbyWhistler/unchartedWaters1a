@@ -1,0 +1,89 @@
+h1
+{
+    color:red;
+}
+
+body 
+{
+    background-color: blanchedalmond;
+}
+
+p,table
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;   
+}
+
+#table0
+{
+    border:solid,black,1px;
+    border-radius:16px;
+    background-color:aquamarine;
+}
+
+#row0
+{
+    padding:0px;
+    border:white;
+    
+    color:red;
+}
+
+#pageTable 
+{
+    border-collapse:collapse;
+    vertical-align:top;
+    border-radius:21px;
+    border-color:black;
+    background-color:rgb(76, 124, 197);
+    width:100%;
+}
+#pageTable
+{
+    vertical-align:top;
+    
+}
+#column0
+{
+    width:25%;
+    padding:6px;
+    
+    vertical-align:top;
+}
+#column1 
+{
+    width:50%;
+    background-color: black;
+    color:white;
+    
+    vertical-align:top;
+}
+#column2 
+{
+    width:25%;
+    vertical-align:top;
+}
+
+#table0
+{
+    
+    background-color: black;
+    color:white; 
+    vertical-align: top;
+}
+#heading 
+{
+    text-align:center;
+}
+#city,#commodity,#buyPrice,#sellPrice
+{
+    background-color:rgb(185, 149, 149);
+    border-radius:6px;
+}
+button
+{
+    background-color: rgb(165, 165, 209);
+    border-radius:16px;
+    border-color:black;
+    border-width:2px;
+}
