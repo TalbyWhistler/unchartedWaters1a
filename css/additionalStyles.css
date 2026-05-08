@@ -29,7 +29,7 @@ p,table
     color:red;
 }
 
-#pageTable 
+#headerTable 
 {
     border-collapse:collapse;
     vertical-align:top;
@@ -38,7 +38,7 @@ p,table
     background-color:rgb(76, 124, 197);
     width:100%;
 }
-#pageTable
+#headerTable
 {
     vertical-align:top;
     
@@ -86,4 +86,15 @@ button
     border-radius:16px;
     border-color:black;
     border-width:2px;
+}
+
+#pageTable
+{
+    width:100%;
+    background-color:white ;
+}
+
+#pageCol0,pageCol0,pageCol0
+{
+    width:50%;
 }
