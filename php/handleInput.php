@@ -161,6 +161,7 @@
                     {
                         echo '</br>successfully added';
                         $payloadStatus="OkCheck5";
+                        $conn->close();
                     }
                     else 
                         {
@@ -169,7 +170,7 @@
                 
             }   
         }
-        $conn->close();
+        
         $form = 
                 '
                     <form id="superForm" action="../index.php" method="post">

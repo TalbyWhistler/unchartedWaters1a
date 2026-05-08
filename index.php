@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<table id='pageTable' >
+<table id='headerTable'>
     <tbody>
 
     <tr>
@@ -33,7 +33,30 @@
     
 </table>
    
- 
+<div id="bigPage">
+    <table id="pageTable">
+        <tbody>
+            <tr>
+               
+                    <td id="pageCol0">
+                        <p>Data</p>
+                        <?php include 'php/pageCol0.php' ?>
+                        
+
+                    </td>
+                    <td id="pageCol1">
+                        <p id="cityInfo" name="cityInfo">DataB</p>
+                        <?php include 'php/pageCol1.php'?>
+                    </td>
+                    
+                    <td id="pageCol2">
+                        <p>DataC</p>
+                    </td>              
+            </tr>
+        </tbody>
+    </table>
+</div>
+<p id="cityInfoOut"></p>
 
     <script src="js/additionalScripts.js"></script>
 </body>
